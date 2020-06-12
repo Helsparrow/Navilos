@@ -15,7 +15,7 @@
 static int32_t sSemMax;
 static int32_t sSem;
 
-static KernelMutex_t sMutex;
+KernelMutext_t sMutex;
 
 void Kernel_sem_init(int32_t max)
 {
